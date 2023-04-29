@@ -1,12 +1,12 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;   
 }
 
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .container { 
@@ -35,6 +35,7 @@ body {
     background-color: #1f2937;
     height: 80px;
 }
+
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -85,5 +86,44 @@ body {
 img {
     width: 700px;
     height: 300px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 20px;
+    text-align: center;
+}
+
+.emptybox {
+    width: 160px;
+    height: 160px;
+    border: 5px solid rgb(70, 128, 194);
+    border-radius: 15px;
+    background: transparent;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box p {
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.6;
+    padding: 0px 20px;
+    margin: 0;
+    height: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 5px;
 }
 
