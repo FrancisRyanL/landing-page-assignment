@@ -77,7 +77,6 @@ body {
     padding: 10px 30px 10px;
     margin-top: 10px;
     border-radius: 10px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 img {
@@ -179,11 +178,21 @@ h2 {
 }
 
 .signup2 {
-    margin-left: 60px;
+    align-self: center;
     color: #f9faf8;
     background-color: #3882f6;
     border: 2px solid #f9faf8;
-    padding:2px 30px 2px;
-    border-radius: 15px;
+    padding:5px 40px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 14px;
+    padding: 20px;
+}
