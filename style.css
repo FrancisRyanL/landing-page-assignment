@@ -1,12 +1,9 @@
-* {
-    box-sizing: border-box;   
-}
 
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container { 
@@ -115,7 +112,7 @@ h2 {
     font-size: 18px;
     opacity: 0.6;
     padding: 0px 20px;
-    margin: 0;
+    margin: 0px;
     height: 100px;
 }
 
@@ -125,5 +122,68 @@ h2 {
     align-items: center;
     width: 150px;
     gap: 5px;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0px 0px 5px 0px;
+    opacity: 0.8;
+}
+
+.quote span {
+    align-self: flex-end;
+    padding-right: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottomsign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.call {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px 120px;
+    border-radius: 15px;;
+}
+
+.call .container {
+    align-self: center;
+}
+
+.call h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.call p {
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.signup2 {
+    margin-left: 60px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    padding:2px 30px 2px;
+    border-radius: 15px;
 }
 
